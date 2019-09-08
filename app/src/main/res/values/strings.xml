@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BizCard-OCR</string>
+
+    <!-- MainActivity(layout) -->
+    <string name="camera_button_label">名刺を撮影</string>
+
+    <!-- MainActivity(permission) -->
+    <string name="permission_camera_never_ask_again">カメラの使用を許可してください。</string>
+    <string name="permission_camera_denied">カメラの使用が許可されていません。</string>
+
+    <!-- ResultActivity(layout) -->
+    <string name="result_activity_title">名刺情報</string>
+    <string name="result_activity_toast_requesterror">OCR結果の取得に失敗しました。</string>
+    <string name="result_activity_toast_networkerror">通信に失敗しました。</string>
+
+    <!-- ResultActivity(header) -->
+    <string name="result_header_title_processing">自動入力中です</string>
+    <string name="result_header_title_success">自動入力が完了しました</string>
+    <string name="result_header_title_failure">自動入力に失敗しました</string>
+
+    <!-- ResultActivity(element) -->
+    <string name="result_element_title_person_name">氏名</string>
+    <string name="result_element_title_email">メールアドレス</string>
+    <string name="result_element_title_tel">電話番号</string>
+    <string name="result_element_title_company_name">会社名</string>
+</resources>
